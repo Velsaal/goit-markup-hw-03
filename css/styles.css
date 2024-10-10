@@ -13,13 +13,21 @@ p{
 img{
     display: block;
 }
-.container{
-width: 1158px;
-max-width: 100%;
+.page-header .container{
+    display: flex;
+    width: 1158px;
 margin: 0 auto;
 padding-left: 15px;
 padding-right: 15px;
 }
+.container{
+
+width: 1158px;
+margin: 0 auto;
+padding-left: 15px;
+padding-right: 15px;
+}
+
 *,
 *::before,
 *::after {
@@ -40,9 +48,6 @@ padding-left: 0;
 }
 .page-header{
     border-bottom: 1px solid #e7e9fc
-}
-.page-header .container-nav{
-    display: flex;
 }
 
 .navigation{
