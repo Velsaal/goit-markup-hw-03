@@ -44,6 +44,7 @@ padding-left: 0;
 .page-header .container-nav{
     display: flex;
 }
+
 .navigation{
     display: flex;
     align-items: center;
@@ -222,7 +223,9 @@ color: #2e2f42;
     background: #f4f4fd;
     padding-top: 120px;
     padding-bottom: 120px;
-    margin-bottom: 72px;
+}
+.team-card{
+    padding-bottom: 72px;
 }
 .list{
     display: flex;
