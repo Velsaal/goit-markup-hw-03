@@ -208,7 +208,6 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
-flex-basis:calc((100%-3*24px)/ 4);
 margin-bottom: 8px;
 }
 .ioyu{
@@ -279,6 +278,9 @@ margin-top: 32px;
     padding-top: 32px;
     padding-bottom: 32px;
     background-color: white;
+}
+.list-item{
+    width: calc((100% - 72px) / 4);
 }
 .four-container{
     padding: 32px 16px;
